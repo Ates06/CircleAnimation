@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151515;
+}
+
+.circle1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid rgb(21, 41, 21);
+    border-bottom: 3px solid rgb(1, 242, 21);
+    animation: animatn 3s linear infinite;
+}
+
+.circle2{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #fee84422;
+    border-top: 3px solid #f9ce24;
+    animation: animatn 2s linear infinite;
+}
+
+@keyframes animatn {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
